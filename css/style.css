@@ -12,27 +12,29 @@
 .first-box {
     background: #00FFFF;
     font-size: 0;
+    overflow: hidden;
 }
 
 .first-box>div {
     width: 400px;
     height: 400px;
-    display: inline-block;
+    float:left;
     font-size: 20px;
 }
 
 .second-box {
     font-size: 0;
     background: #ADFF2F;
+    overflow: hidden;
 }
 
 .second-box>div {
-    display: inline-block;
+    float:left;
     width: 800px;
 }
 
 .second-box>div+div {
-    display: inline-block;
+    float:left;
     width: 400px;
 }
 
@@ -47,17 +49,17 @@
 .third-box {
     font-size: 0;
     background: #FF8C00;
-
+    overflow: hidden;
 }
 
 .third-box>div {
-    display: inline-block;
+    float:left;
     width: 400px;
     height: 400px;
 }
 
 .third-box>div+div {
-    display: inline-block;
+    float:left;
     width: 800px;
 }
 
@@ -66,7 +68,7 @@
 }
 
 .third-box-two-bottom>div {
-    display: inline-block;
+    float:left;
     width: 400px;
     height: 200px;
 }
